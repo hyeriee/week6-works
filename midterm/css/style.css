@@ -1,0 +1,101 @@
+
+.img-container {   
+  width: 25%;   
+  margin-left: 23%;       
+  float: left;
+  position: absolute;
+} 
+
+.img-box {
+  width: 25%;
+  margin-left: 63%;
+  float: left;
+  position: relative;
+
+}
+
+.img2 {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  transform: translateX(-50%);
+  animation-delay: 1s;
+  animation-name: img;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  position: absolute;
+}
+
+.img3 {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  transform: translateX(-50%);
+  animation-delay: 2s;
+  animation-name: img;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  position: absolute;
+}
+
+.img4 {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  transform: translateX(-50%);
+  animation-delay: 3s;
+  animation-name: img;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-iteration-count: 1;
+  position: absolute;
+}
+
+.img5 {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  transform: translateX(-50%);
+  animation-delay: 4s;
+  animation-name: img;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-iteration-count: 1;
+  position: absolute;
+}
+
+.img6 {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  transform: translateX(-50%);
+  animation-delay: 5s;
+  animation-name: img;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-iteration-count: 1;
+  position: absolute;
+}
+
+.title {
+  width: 50%;
+  height: 30%;
+  margin-top: 35%;
+  margin-left: 25%;
+  position: absolute;
+
+}
+
+
+@-webkit-keyframes img {
+
+  0% {opacity: 0%;}
+
+  100% {opacity: 100%;}
+
+}
